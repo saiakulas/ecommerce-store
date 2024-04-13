@@ -1,0 +1,102 @@
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Adjust maximum width as needed */
+    margin: 0 auto;
+    height: 400px;
+  }
+  
+  .carousel-buttons {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .carousel-buttons {
+      bottom: 20px; /* Adjust bottom margin for smaller screens */
+    }
+  }
+  .carousel-image {
+    border-radius: 10px; /* Add border radius */
+    width: 100%; /* Ensure image fills its container */
+    height: 600px; /* Maintain aspect ratio */
+    margin-top:  20px;
+  }
+
+  .card-image {
+    height: 200px; /* Adjust the height of the image */
+    object-fit: cover;
+    width: 100%;
+  }
+  .card {
+    background-color:rgb(254, 255, 255); /* Set the background color of the card */
+    color:black; /* Set the text color of the card */
+    border-color: #000000;
+
+  }
+  
+  .card-img-top {
+    object-fit: cover; /* Ensure the image covers the entire card */
+    height: 200px; /* Adjust the height of the image */
+  }
+  
+  .card-body {
+    padding: 1rem; /* Add padding inside the card body */
+  }
+  .tot{
+    background-color: #CF9FFF;
+  }
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px 8px;
+  }
+  
+  a:hover {
+    background-color: #CF9FFF;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color:#f1f1f1;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 80%;
+  }
+  .footer {
+    background-color:#CF9FFF;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .footer h3 {
+    color: #fff;
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-list li {
+    margin-bottom: 10px;
+  }
+  
+  .bottom-bar {
+    background-color: #050202;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+
